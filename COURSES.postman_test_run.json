@@ -1,0 +1,214 @@
+{
+	"id": "733d5fd6-53f8-4813-838c-b4a208853bc7",
+	"name": "COURSES",
+	"timestamp": "2022-10-07T15:26:20.167Z",
+	"collection_id": "23152964-417b1a57-2190-45c0-8627-37b42709f07d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 21,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b22c8e64-e8b1-43f2-aa51-cd5fdb202fe1",
+			"name": "CREATE COURSE",
+			"time": 172,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				171,
+				175,
+				172
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "b4aebb2d-e169-41c3-8b85-9dbaa12a64b6",
+			"name": "LIST COURSES",
+			"time": 176,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				182,
+				185,
+				176
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "01aff391-3a6a-48a8-b7db-67aac5d84732",
+			"name": "GET COURSE",
+			"time": 174,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches course title": true,
+				"Body matches course description": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches course title": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches course description": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				167,
+				182,
+				174
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches course title": true,
+					"Body matches course description": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course title": true,
+					"Body matches course description": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course title": true,
+					"Body matches course description": true
+				}
+			]
+		},
+		{
+			"id": "588e7773-6f0c-461d-8144-ac5ba1f44969",
+			"name": "UPDATE COURSE",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches course title": true,
+				"Body matches course description": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches course title": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches course description": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				173,
+				165,
+				173
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches course title": true,
+					"Body matches course description": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course title": true,
+					"Body matches course description": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course title": true,
+					"Body matches course description": true
+				}
+			]
+		},
+		{
+			"id": "2f336195-8674-4e37-a951-d3b20e6d1813",
+			"name": "DELETE COURSE",
+			"time": 178,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				175,
+				164,
+				178
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 2612,
+	"collection": {
+		"requests": [
+			{
+				"id": "b22c8e64-e8b1-43f2-aa51-cd5fdb202fe1",
+				"method": "POST"
+			},
+			{
+				"id": "b4aebb2d-e169-41c3-8b85-9dbaa12a64b6",
+				"method": "GET"
+			},
+			{
+				"id": "01aff391-3a6a-48a8-b7db-67aac5d84732",
+				"method": "GET"
+			},
+			{
+				"id": "588e7773-6f0c-461d-8144-ac5ba1f44969",
+				"method": "PUT"
+			},
+			{
+				"id": "2f336195-8674-4e37-a951-d3b20e6d1813",
+				"method": "DELETE"
+			}
+		]
+	}
+}
